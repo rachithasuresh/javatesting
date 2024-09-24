@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Use the Maven tool configured in Jenkins
-        sonarcube 'Maven 3.8.7'
+        maven 'Maven 3.8.7'
     }
 
     environment {
